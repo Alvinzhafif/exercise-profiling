@@ -10,7 +10,15 @@
 ### `highest-gpa` cmd run test result
 <img width="989" alt="Screenshot 2024-03-11 121322" src="https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/aaa7f781-0bd5-4f57-98d1-b442909a220f">
 
-1. Both performance test approach can be used for 
+### Performance Comparison Pre-Refactor and Post-Refactor for method `getAllStudentWithCourse`
+#### Pre-Optimization
+![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/94635986-98e9-437c-bdec-eefb12158de7)
+
+#### Post-Optimization
+![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/e2611993-5c93-4711-b5c0-b811f843f185)
+
+Here, we can see that there are significan
+
 
 
 
