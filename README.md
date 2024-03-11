@@ -17,7 +17,7 @@
 #### Post-Optimization
 ![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/e2611993-5c93-4711-b5c0-b811f843f185)
 
-Here, we can see that there are significan
+Here, we can see significant improvements in the time it takes to run that method. Here, I implemented two loops, one for getting the students' names and IDs, and the other for getting their courses. I also implemented the use of a `HashMap` as using it allows easy grouping between the student's ID with their associated courses, and by using `HashMap` I can also optimize the lookup time as it would not take long to search for courses that don't have a student ID yet, this will be useful for adding the student ID if the course does not have it yet.
 
 
 
