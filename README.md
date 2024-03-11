@@ -10,5 +10,7 @@
 ### `highest-gpa` cmd run test result
 <img width="989" alt="Screenshot 2024-03-11 121322" src="https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/aaa7f781-0bd5-4f57-98d1-b442909a220f">
 
+1. Both performance test approach can be used for 
+
 
 
