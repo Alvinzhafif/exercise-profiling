@@ -19,6 +19,21 @@
 
 Here, we can see significant improvements in the time it takes to run that method. Here, I implemented two loops, one for getting the students' names and IDs, and the other for getting their courses. I also implemented the use of a `HashMap` as using it allows easy grouping between the student's ID with their associated courses, and by using `HashMap` I can also optimize the lookup time as it would not take long to search for courses that don't have a student ID yet, this will be useful for adding the student ID if the course does not have it yet.
 
+### Performance Comparison Pre-Refactor and Post-Refactor for method `findStudentWithHighestGPA`
+#### Pre-Optimization
+![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/b0b45b05-9ad1-423a-9aae-dd1c664febec)
+
+
+#### Post-Optimization
+![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/6eaa52fb-37b0-4e6b-9d4f-f1ba490599a9)
+
+For this method, the improvement in time is not that great as I believe the original method is already efficient. However, it can still be improved, here I implemented the `.stream()` method for making the result of `.findAll()` iterable.
+Then, I extract the maximum value using a `.max()` method and compare them using the `.comparingDouble()` method from the `Comparator` class 
+
+
+
+
+
 
 
 
