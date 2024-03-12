@@ -24,7 +24,7 @@ Here, we can see significant improvements in the time it takes to run that metho
 ![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/62d57c27-b0f6-4ff8-9f01-cb19f228ac98)
 
 
-
+ramp up p
 #### Post-Optimization
 ![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/6eaa52fb-37b0-4e6b-9d4f-f1ba490599a9)
 
@@ -39,7 +39,18 @@ Then, I extract the maximum value using a `.max()` method and compare them using
 #### Post-Optimization
 ![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/5a5652f4-817e-48f4-9912-d3b473d8d697)
 
-For this method, I made significant improvements to the running time. Now, there is about 80% improvement in running time compared to pre-optimization. Here, like the `findStudentWithHighestGpa` function, I implemented the use of the `.stream()` method. Then I used `.map()` for transforming the stream objects and `.collect` for collecting the elements into a single string. A `Collector` is also used for combining the names together.
+For this method, I made significant improvements to the running time. Now, there is about 80% improvement in running time compared to pre-optimization. Here, like the `findStudentWithHighestGpa` function, I implemented the use of the `.stream()` method. Then I used `.map()` for transforming the stream objects and `.collect` for collecting the elements into a single string. A `Collector` is also used for combining the names.
+
+1. Both can be used for testing and improving the performance. However, there are some differences in their approach to the tests themselves:
+   * JMeter test
+     <br>
+     Usually, the JMeter test is used to see if the app can perform under heavy and various load conditions. In addition, it can identify bottlenecks, measure response time, and determine the overall scalability. The test scenario can include, the number of users, ramp-up period, and request type. This can help determine how much time it takes for your algorithm to run the code and how long it takes to access the database as well.
+
+   * IntelliJ Profiler
+     <br>
+     Whilst the Profiler is commonly used for pinpointing specific areas of code that can be improved. So it's more focused on CPU usage and method execution time, from there they can then pinpoint the running time of the specific method and the developer (Us) can easily make improvements to that specific segment only. Profiler also has a few different visualizations so the developer can take a look at how his methods run in different point of views.
+
+  
 
 
 
