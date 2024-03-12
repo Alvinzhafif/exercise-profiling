@@ -48,7 +48,19 @@ For this method, I made significant improvements to the running time. Now, there
 
    * IntelliJ Profiler
      <br>
-     Whilst the Profiler is commonly used for pinpointing specific areas of code that can be improved. So it's more focused on CPU usage and method execution time, from there they can then pinpoint the running time of the specific method and the developer (Us) can easily make improvements to that specific segment only. Profiler also has a few different visualizations so the developer can take a look at how his methods run in different point of views.
+     The Profiler is commonly used for pinpointing specific areas of code that can be improved. So it's more focused on CPU usage and method execution time, from there they can then pinpoint the running time of the specific method and the developer (Us) can easily make improvements to that specific segment only. Profiler also has a few different visualizations so the developer can take a look at how his methods run from different points of view.
+
+2. Profiling helps me identify weaknesses in my code, there are a lot of ways profiling can help me identify weaknesses in my code one of them being the time it takes to execute a certain method. From running a single method, IntelliJ's profiler can help me pinpoint the exact amount of time it takes to execute a specific code segment from my method. From there, I can analyze which part should I change and improve the running time of that method.
+
+3. Yes, IntelliJ's Profiling is effective in assisting me in finding and identifying bottlenecks in my codes. In addition, IntelliJ's Profiler has a wide range of profiling abilities, it can do CPU profiling, memory profiling, thread profiling, and I/O profiling. I do believe those wide ranges of profiling abilities can help me improve specific segments of my code.
+
+4. For me, as always when testing with profiling, getting the specific segment with the error or requiring improvements is easy. However, refactoring those codes to improve the running time or fixing the error is the hard part, usually, I can spend a few minutes to hours depending on the complexity of that specific code segment. An approach I usually take to overcome the problem is to look at external sources such as Google, StackOverflow, GeeksForGeeks, etc.
+
+5. As I have said before in question 2, by using a profiler there are many benefits it can give me. One of them is less time to identify which segment I got the error or need improvements, this will especially be helpful when we only want to improve specific parts of the code and not its entireness.
+
+6. There are many approaches to handling this problem, a common approach is to identify the focus area of the problem. This means we can take both the test results of both IntelliJ profiler and JMeter, then we can assess and identify each of the results and see if there are any intersecting problems between the two. From there we can pinpoint the source of the problem and fix it.
+
+7. I have explained the approach I used above, mostly I only look up if any other methods can be used so that the method itself can run faster compared to its pre-optimization state. To ensure that the application functionality still works, I used `Postman` to see the results of the test after I applied the refactoring and check if the output remained the same or changed. 
 
   
 
