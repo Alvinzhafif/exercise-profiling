@@ -24,7 +24,6 @@ Here, we can see significant improvements in the time it takes to run that metho
 ![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/62d57c27-b0f6-4ff8-9f01-cb19f228ac98)
 
 
-ramp up p
 #### Post-Optimization
 ![image](https://github.com/Alvinzhafif/exercise-profiling/assets/143392835/6eaa52fb-37b0-4e6b-9d4f-f1ba490599a9)
 
